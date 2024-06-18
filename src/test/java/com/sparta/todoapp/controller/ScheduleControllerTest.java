@@ -95,11 +95,9 @@ class ScheduleControllerTest {
                 .content(content)
                 .build());
 
-
         // when
        final ResultActions result = mockMvc.perform(get(url)
                .accept(MediaType.APPLICATION_JSON));
-
 
         // then
         result.andExpect(status().isOk())
@@ -177,8 +175,6 @@ class ScheduleControllerTest {
         assertThat(schedule.getTitle()).isEqualTo(newTitle);
         assertThat(schedule.getContent()).isEqualTo(newContent);
     }
-
-
 
     //삭제
     @DisplayName("deleteSchedule: 일정 삭제 확인")

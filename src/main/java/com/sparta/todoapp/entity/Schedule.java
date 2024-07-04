@@ -7,6 +7,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.apache.logging.log4j.core.config.plugins.validation.constraints.NotBlank;
 
 import java.time.LocalDateTime;
 
@@ -14,9 +15,8 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-@Table
 @Builder
-
+@Table(name = "schedules")
 public class Schedule {
 
     @Id
@@ -24,10 +24,12 @@ public class Schedule {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "user")
-    private String user;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 
     @Column(name = "password")
+    @NotBlank(message = "잘못된 패스워드입니다.")
     private String password;
 
     @Column(name = "title")
@@ -36,11 +38,10 @@ public class Schedule {
     @Column(name = "content")
     private String content;
 
-    @Column(name = "createdAt")
+    @Column(name = "created_at")
     private LocalDateTime createdAt;
 
     public Schedule(ScheduleCreateRequestDto requestDto) {
-        this.user = requestDto.getUser();
         this.password = requestDto.getPassword();
         this.title = requestDto.getTitle();
         this.content = requestDto.getContent();
@@ -51,6 +52,4 @@ public class Schedule {
         this.title = requestDto.getTitle();
         this.content = requestDto.getContent();
     }
-
-
 }

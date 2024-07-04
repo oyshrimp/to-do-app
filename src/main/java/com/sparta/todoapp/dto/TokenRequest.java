@@ -5,7 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ScheduleUpdateRequestDto {
-    private String title;
-    private String content;
+public class TokenRequest {
+    private String refreshToken;
 }

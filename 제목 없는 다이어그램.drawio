@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-07-21T16:25:08.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.1" etag="Jvw32KHsfCAIM4--aVuC" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-21T17:18:52.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="v3cxPQaUpS81m4rkNPBI" version="24.7.1" type="github">
   <diagram name="페이지-1" id="Tl9F6LGAFDgoZwaDYWDN">
-    <mxGraphModel>
+    <mxGraphModel dx="3348" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9q9DtXMditR6iAJeZmyq-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/3053/PNG/96/intellij_alt_macos_bigsur_icon_190060.png;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9q9DtXMditR6iAJeZmyq-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2699/PNG/96/mysql_official_logo_icon_169938.png;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="137" width="96" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9q9DtXMditR6iAJeZmyq-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2415/PNG/96/github_original_wordmark_logo_icon_146506.png;" vertex="1" parent="1">
+          <mxGeometry x="284" y="100" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9q9DtXMditR6iAJeZmyq-5" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="930" y="360" width="85.37" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9q9DtXMditR6iAJeZmyq-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2699/PNG/512/amazon_aws_logo_icon_168666.png;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9q9DtXMditR6iAJeZmyq-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png;" vertex="1" parent="1">
+          <mxGeometry x="460" y="100" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9q9DtXMditR6iAJeZmyq-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://velog.velcdn.com/images/spig0126/post/b546cff1-161d-46b3-b1ab-086c7150c283/image.png;" vertex="1" parent="1">
+          <mxGeometry x="180" y="630" width="720" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9q9DtXMditR6iAJeZmyq-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://velog.velcdn.com/images/songs4805/post/7e40d049-3f99-4c74-adcd-c4eceed8795e/image.png;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="671.38" width="460" height="158.62" as="geometry" />
+        </mxCell>
+        <mxCell id="9q9DtXMditR6iAJeZmyq-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vue_icon_130078.png;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="320" width="282" height="282" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
